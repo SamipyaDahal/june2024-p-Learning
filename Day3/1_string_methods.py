@@ -46,5 +46,16 @@ result = " ".join(a)
 print(result)  # Hello World
 # r = a.join(" ")  # This is incorrect as join is not a list method
  
- result="+".join(a)
-print(result)
+result = " + ".join(a)
+print(result) # Hello+World
+
+#find()
+a = "Hello World"
+result1 = a.find("W")
+result2 = a.find("Wor")
+print(result1)  # 6
+print(result2)  # 6
+
+r = a.find("z")
+print(r)  # -1 if the character or substring not present in the main string
+
